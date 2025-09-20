@@ -1,0 +1,17 @@
+Project: QR Code Generator (Python)
+Author: Bhawesh Shrestha
+Date: 2025-09-19
+Language: Python 3.10+
+Entry Point: qr_generator.py
+Description: Command-line utility to generate QR code PNG from a given URL.
+
+Files:
+  - qr_generator.py  : Main application
+  - requirements.txt : Dependency manifest (qrcode, Pillow)
+  - README.md        : Setup and usage instructions
+  - .gitignore       : Common Python ignores
+  - QR_Code_Generator_Report.rtf : Word-compatible report template to include screenshot
+
+Dependencies:
+  - qrcode>=7.4.0
+  - Pillow>=10.0.0
